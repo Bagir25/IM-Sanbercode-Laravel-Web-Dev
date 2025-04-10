@@ -1,13 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Welcome</title>
-</head>
-<body>
+@extends("layouts.master")
+@section("title")
+   Dashboard
+@endsection
+@section("content")
     <H1>Selamat Datang {{ $firstName }} {{ $lastName }}!</H1><br>
-    <h1>Terima kasih telah bergabung di sanberbook. sosial kita bersama!</h1>
-
-
-</body>
-</html>
+    <p>Terima kasih telah bergabung di sanberbook. sosial kita bersama!</p>
+@endsection
+    
